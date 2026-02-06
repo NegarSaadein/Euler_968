@@ -55,10 +55,10 @@ At each bit level `k`:
 3. Remaining capacities are propagated to the next bit level using integer carry:
 
 $$
-\text{next\_capacity}
+\text{next capacity}
 =
 \left\lfloor
-\frac{\text{remaining\_capacity} - (b_i + b_j)}{2}
+\frac{\text{remaining capacity} - (b_i + b_j)}{2}
 \right\rfloor
 $$
 
