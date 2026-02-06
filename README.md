@@ -52,11 +52,11 @@ At each bit level `k`:
 
 1. All `2^5 = 32` possible bit combinations are tested using a bitmask.
 2. For every constraint `x_i + x_j ≤ C_m`, the selected bits are checked against the remaining capacity.
-3. Remaining capacities are propagated to the next bit level using integer carry:
+3. Remaining capacities are propagated to the next bit level using integer carry.
+
+**Next capacity is computed as:**
 
 $$
-\text{next capacity}
-=
 \left\lfloor
 \frac{\text{remaining capacity} - (b_i + b_j)}{2}
 \right\rfloor
