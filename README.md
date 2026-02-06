@@ -122,3 +122,4 @@ $$
 - **Pruning**  
   Any constraint violation terminates the branch immediately, making the algorithm
   practical even for capacities up to \( 10^9 \).
+
